@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  overflow: hidden;
+  background-color: #1e3b3c;
+}
+
+.Flexbox{
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  
+  
+}
+.navi{
+  background-color: #007073;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin:0;
+  
+}
+
+ .navi ul{
+  display: flex;
+  margin: 10px;
+  
+}
+  .navi a{
+      text-decoration: none;
+      color: white;
+      width: 100px;
+      padding: 10px 10px 10px;
+      font-weight: bold;
+      font-family: Roboto;
+      display:flex;
+      justify-content:center;
+      align-items: center;
+    
+      
+    }  
+    
+    .navi a:hover{
+      background:#0dbdad;
+      opacity: 0.15s;
+      border-left: 80px solid transparent;
+      display: flex;
+    }
+
+.main{
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  display: flex;
+}
+.main h1{
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 60px;
+  color: white;
+  margin: 20px;
+}
+.footer{
+  background-color: #007073;
+  width-left: 100%;
+  height: 100px;
+  display: flex;
+  margin: 100px;
+  border-radius: 10px;
+}
+.footer h4{
+  margin: 30px;
+  padding: 30px;
+}
+
+.button{
+  margin: 65px;
+  height: 25px;
+  border-radius: 10px;
+  background-color:#0dbdad;
+  border: none;
+  color: white;
+}
+.navi h1{
+  font-family:  "Balsamiq Sans", sans-serif;
+  color: white;
+  margin: 25px;
+  padding: 10px;
+}
