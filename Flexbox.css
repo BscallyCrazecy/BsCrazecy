@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+  overflow: hidden;
+  background-color: #1e3b3c;
+  scroll-behavior: smooth!
+}
+
+.Flexbox{
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  
+  
+}
+.navi{
+  background-color: #007073;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin:0;
+  
+}
+
+ .navi ul{
+  display: flex;
+  margin: 10px;
+  
+}
+  .navi a{
+      text-decoration: none;
+      color: white;
+      width: 100px;
+      padding: 10px 10px 10px;
+      font-weight: bold;
+      font-family: Roboto;
+      display:flex;
+      justify-content:center;
+      align-items: center;
+    
+      
+    }  
+    
+    .navi a:hover{
+      background:#0dbdad;
+      opacity: 0.15s;
+      
+    }
+
+.main{
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  display: flex;
+}
+.main h1{
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin: 20px;
+}
+.footer{
+  background-color: #007073;
+  width-left: 100%;
+  height: 100px;
+  display: flex;
+  margin: 100px;
+  border-radius: 10px;
+}
+.footer h4{
+  margin: 30px;
+  padding: 30px;
+}
+
+.button{
+  margin: 65px;
+  height: 25px;
+  border-radius: 10px;
+  background-color:#0dbdad;
+  border: none;
+  color: white;
+}
+.navi h1{
+  font-family:  "Balsamiq Sans", sans-serif;
+  color: white;
+  margin: 25px;
+  padding: 10px;
+}
+.honeycomb {
+  position: relative;
+  width: 280px;
+  height: 520px;
+}
+
+.hex {
+  position: relative;
+  width: 140px;
+  height: 160px;
+}
+
+/*border lang*/
+.hex::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: #3eead6; 
+
+  clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+}
+
+/* INNER CUT (removes fill) */
+.hex::after {
+  content: "";
+  position: absolute;
+  inset: 6px; 
+  background: #203a3a; /* same as page bg */
+  clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+}
+.honeycomb {
+  position: relative;
+  width: 280px;
+  height: 650px;
+}
+
+
+.hex {
+  position: absolute;
+  width: 230px;
+  height: 280px;
+  background: #2ee6d6; 
+
+  clip-path: polygon(
+    0% 25%, 0% 75%,
+    50% 100%, 100% 75%,
+    100% 25%, 50% 0%
+  );
+}
+
+.h1 {
+  top: 0;
+  left: 40px;
+}
+
+.h2 {
+  top: 220px;  
+  left: 160px;   
+}
+
+.h3 {
+  top: 440px;
+  left: 40px;
+}
+
+
