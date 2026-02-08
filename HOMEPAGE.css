@@ -2,9 +2,6 @@ body{
   margin: 0;
   height: 100vh;
   background: linear-gradient(to bottom, #2980B9, #6DD5FA, #FFFFFF);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   scroll-behavior: smooth;
   
 }
@@ -33,8 +30,7 @@ body{
   align-items: center;
   cursor: pointer;
   position: fixed;
-  isolation: isolate;
-  z-index: 99999;
+
   
 }
 .right {
