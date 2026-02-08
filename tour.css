@@ -120,14 +120,6 @@ body{
   transform: scaleX(1);
   transform-origin: left;
 }
-.navi.scrolled {
-  background: rgba(255, 255, 255, 0.6); /* glass */
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-}
-
 .gallery {
   display: flex;
   flex-direction: column;
@@ -150,9 +142,6 @@ body{
   width: 400px;
   height: 470px;
   background-color: white;
-  
- 
-
   clip-path: polygon(
     0% 25%, 0% 75%,
     50% 100%, 100% 75%,
@@ -248,7 +237,7 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 100px;
- font-family:"Playpen Sans", cursive;
+ 
 }
 .kap-cite{
    margin-left: 100px;
@@ -282,7 +271,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 1050px;
- font-family:"Playpen Sans", cursive;
 }
 .olap-cite{
   margin-left: 1100px;
@@ -318,7 +306,6 @@ body{
  width: 600px;
  font-size: 30px; 
  margin-left: 200px;
- font-family:"Playpen Sans", cursive;
 }
 .mrp-cite{
    margin-left: 200px;
@@ -352,7 +339,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 1100px;
- font-family:"Playpen Sans", cursive;
 }
 .msc-cite{
   margin-left: 1100px;
@@ -388,7 +374,6 @@ body{
  width: 600px;
  font-size: 30px; 
  margin-left: 200px;
- font-family:"Playpen Sans", cursive;
 }
 .mrc-cite{
    margin-left: 200px;
@@ -422,7 +407,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 700px;
- font-family:"Playpen Sans", cursive;
 }
 .sm-cite{
   margin-left:700px;
@@ -452,12 +436,10 @@ body{
   color: white;
   white-space: nowrap;
 }
-
 .ayala-par{
  width: 600px;
  font-size: 30px; 
  margin-left: 200px;
- font-family:"Playpen Sans", cursive;
 }
 .ayala-cite{
    margin-left: 200px;
@@ -490,7 +472,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 1000px;
- font-family:"Playpen Sans", cursive;
 }
 .blue-cite{
   margin-left:1000px;
