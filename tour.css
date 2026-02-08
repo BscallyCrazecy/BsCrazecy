@@ -1,4 +1,4 @@
-body{
+cursive{
   margin: 0;
   height: 100vh;
   background: linear-gradient(to bottom, #2980B9, #6DD5FA,#68c1f5);
@@ -212,7 +212,6 @@ body{
  width: 650px;
  font-size: 28px; 
  margin-left: 1000px;
- font-family:"Playpen Sans", cursive;
 }
 .shoe-cite{
    margin-left: 1000px;
@@ -248,7 +247,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 100px;
- font-family:"Playpen Sans", cursive;
 }
 .kap-cite{
    margin-left: 100px;
@@ -281,8 +279,7 @@ body{
 .OLAP-par{
  width: 600px;
  font-size: 28px; 
- margin-left: 1050px;
- font-family:"Playpen Sans", cursive;
+ margin-left: 1050pxfon;
 }
 .olap-cite{
   margin-left: 1100px;
@@ -318,12 +315,10 @@ body{
  width: 600px;
  font-size: 30px; 
  margin-left: 200px;
- font-family:"Playpen Sans", cursive;
 }
-.mrp-cite{
+mrp-cite{
    margin-left: 200px;
 
-}
 .bottom .hex:nth-child(1) {
   top: 500px;
   right: -500px;
@@ -352,7 +347,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 1100px;
- font-family:"Playpen Sans", cursive;
 }
 .msc-cite{
   margin-left: 1100px;
@@ -388,7 +382,6 @@ body{
  width: 600px;
  font-size: 30px; 
  margin-left: 200px;
- font-family:"Playpen Sans", cursive;
 }
 .mrc-cite{
    margin-left: 200px;
@@ -422,7 +415,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 700px;
- font-family:"Playpen Sans", cursive;
 }
 .sm-cite{
   margin-left:700px;
@@ -457,7 +449,6 @@ body{
  width: 600px;
  font-size: 30px; 
  margin-left: 200px;
- font-family:"Playpen Sans", cursive;
 }
 .ayala-cite{
    margin-left: 200px;
@@ -490,8 +481,8 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 1000px;
- font-family:"Playpen Sans", cursive;
 }
 .blue-cite{
   margin-left:1000px;
+
 }
