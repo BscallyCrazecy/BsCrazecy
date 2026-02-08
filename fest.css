@@ -34,6 +34,7 @@ body{
   cursor: pointer;
   position: fixed;
   z-index: 99999;
+  isolation: isolate;
   
 }
 .right {
@@ -281,6 +282,7 @@ nav a.active {
    margin-left: 1005px;
 
 }
+
 
 
 
