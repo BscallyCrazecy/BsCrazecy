@@ -207,7 +207,6 @@ nav a.active {
  width: 600px;
  font-size: 28px; 
  margin-left: 1000px;
- font-family:"Playpen Sans", cursive;
 }
 .sap-cite{
    margin-left: 1000px;
@@ -241,8 +240,7 @@ nav a.active {
 .angkan-text{
   width: 600px;
   font-size: 28px; 
-  margin-left: 200px;
-  font-family:"Playpen Sans", cursive;
+  margin-left: 200px
 }
 .ang-cite{
   margin-left: 200px;
@@ -277,8 +275,8 @@ nav a.active {
   font-size: 35px; 
   margin-left: 1005px;
   margin-top: 180px;
-  font-family:"Playpen Sans", cursive;
 }
 .mar-cite{
    margin-left: 1005px;
+
 }
