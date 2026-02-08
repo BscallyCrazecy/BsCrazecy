@@ -370,7 +370,7 @@ body{
   position: relative;
   padding: 30px 20px 70px;
   text-align: center;
-  background-color: linear-gradient(135deg, #0A2540, #050B2C);;
+  background-color: #1B2D4F;
   backdrop-filter: blur(8px); 
   color: #fff;
   border-top: 2px solid rgba(255, 255, 255, 0.1); 
