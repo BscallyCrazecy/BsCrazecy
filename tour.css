@@ -34,9 +34,9 @@ body{
   align-items: center;
   cursor: pointer;
   background: #0096c7;
-  position: sticky;
-  top: 0;
+  position: fixed;
   z-index: 99999;
+  isolation: isolate;
 }
 .right {
   display: flex;
@@ -479,6 +479,7 @@ body{
 .blue-cite{
   margin-left:1000px;
 }
+
 
 
 
