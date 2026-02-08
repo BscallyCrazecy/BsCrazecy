@@ -34,6 +34,7 @@ body{
   align-items: center;
   cursor: pointer;
   background: #0096c7; 
+  border-radius: 50px;
   position: fixed;
   z-index: 99999;
 }
@@ -478,5 +479,6 @@ body{
 .blue-cite{
   margin-left:1000px;
 }
+
 
 
