@@ -32,8 +32,7 @@ body{
   box-sizing: border-box;
   align-items: center;
   cursor: pointer;
-  position: sticky;
-  top: 0;
+  position: fixed;
   z-index: 99999;
   isolation: isolate;
   
@@ -283,6 +282,7 @@ nav a.active {
    margin-left: 1005px;
 
 }
+
 
 
 
