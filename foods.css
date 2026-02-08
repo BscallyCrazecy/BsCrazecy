@@ -203,7 +203,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 900px;
- font-family:"Playpen Sans", cursive;
 }
 .EVR-cite{
    margin-left: 900px;
@@ -236,7 +235,6 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 350px;
- font-family:"Playpen Sans", cursive;
 }
 .WAK-cite{
    margin-left:350px;
@@ -271,8 +269,8 @@ body{
  width: 600px;
  font-size: 28px; 
  margin-left: 950px;
- font-family:"Playpen Sans", cursive;
 }
 .PUTO-cite{
    margin-left: 950px;
 }
+
