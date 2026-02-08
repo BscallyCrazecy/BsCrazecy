@@ -24,14 +24,14 @@ body{
   height: 100px;
   display: flex;
   margin: 0;
-  z-index: 9999;
   justify-content: space-between;
   padding: 10px 50px 10px 50px;
   box-sizing: border-box;
   align-items: center;
   cursor: pointer;
-  position: sticky;
-  top:0;
+  position: fixed;
+  isolation: isolate;
+  z-index: 99999;
   
 }
 .right {
