@@ -370,6 +370,10 @@ body{
   position: relative;
   padding: 30px 20px 70px;
   text-align: center;
+  background: rgba(0, 51, 102, 0.85);
+  backdrop-filter: blur(8px); 
+  color: #fff;
+  border-top: 2px solid rgba(255, 255, 255, 0.1); 
 }
 
 .site-footer .image-credit-bar {
