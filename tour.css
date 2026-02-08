@@ -1,4 +1,4 @@
-cursive{
+body{
   margin: 0;
   height: 100vh;
   background: linear-gradient(to bottom, #2980B9, #6DD5FA,#68c1f5);
@@ -486,3 +486,4 @@ mrp-cite{
   margin-left:1000px;
 
 }
+
