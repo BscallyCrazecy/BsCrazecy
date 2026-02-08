@@ -133,14 +133,13 @@ body{
   font-weight: solid;
   font-style: italic;
   font-size: 50px;
-  top: 150px;
+  top: -60px;
   font-weight: bold;
   color: white;
   margin: 50px;
   position: relative;
   padding: 10px;
 }
-
 
 .glow-btn{
   margin-left: 100px;
