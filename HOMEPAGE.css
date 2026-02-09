@@ -366,3 +366,36 @@ body{
   transform: scale(1.5);
   transition: transform 0.3s ease;
 }
+.site-footer {
+  position: relative;
+  padding: 30px 20px 70px;
+  text-align: center;
+  background: #023e7d;
+}
+
+.site-footer .footer-content {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.site-footer .image-credit-bar {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  opacity: 0.8;
+  max-width: 92%;
+  line-height: 1.3;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.site-footer .image-credit-bar a {
+  color: #a8d1ff;
+  text-decoration: underline;
+}
+
+.site-footer .image-credit-bar a:hover {
+  color: #fff;
+}
