@@ -1,6 +1,7 @@
 body{
   margin: 0;
   height: 100vh;
+  width: 100%;
   background: linear-gradient(to bottom, #2980B9, #6DD5FA, #63bde7);
   background-repeat: no-repeat;
   background-size: cover;
@@ -302,5 +303,6 @@ body{
   color: inherit;
   text-decoration: underline;
 }
+
 
 
