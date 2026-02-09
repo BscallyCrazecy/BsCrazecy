@@ -197,14 +197,14 @@ body{
   width: 300px;
   font-size: 100px;
   margin-top: -200px;
-  margin-left: 960px;
+  margin-left: 940px;
   color: white;
   white-space: nowrap;
 }
 .shoe-par{
  width: 650px;
  font-size: 28px; 
- margin-left: 960px;
+ margin-left: 940px;
 }
 .shoe-cite{
    margin-left: 1000px;
@@ -505,6 +505,7 @@ body{
   color: inherit;
   text-decoration: underline;
 }
+
 
 
 
